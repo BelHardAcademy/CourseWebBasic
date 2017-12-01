@@ -1,0 +1,104 @@
+body {
+    color: #4e00ff;
+    font-family: 'Roboto', 'FontAwesome';
+}
+
+input {
+    border-radius: 7px;
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background: #4e00ff;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+    display: flex;
+}
+
+header .content {
+    height: 100%;
+}
+
+header .logo {
+    float: left;
+    height: 100%;
+    width: 210px;
+}
+
+header .logo h1 {
+    margin: 3px 0 0 0;
+    text-shadow: 3px 4px black;
+}
+
+header h3 {
+    margin: -5px 0 0 0;
+    font-size: 16px;
+}
+
+header .info {
+    width: 590px;
+    float: right;
+}
+
+header .row {
+    height: 50px;
+    position: relative;
+}
+
+header .row:first-child > * {
+    top: 45%;
+    position: absolute;
+}
+
+header .row .search {
+    right: 0;
+}
+
+header .row .search #inputSearch {
+    padding-left: 25px;
+}
+
+header .row .search .fa-search {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    font-size: 15px;
+    color: #a5afb5;
+}
+
+header nav {
+    display: block;
+    height: 100%;
+    margin-left: -10px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 800;
+    padding-right:10px;
+    padding-left:10px;
+    height: 100%;
+}
+
+header nav a:hover {
+    background: #1b018b;
+}
