@@ -1,6 +1,7 @@
 body {
     color: #4e00ff;
     font-family: 'Roboto', 'FontAwesome';
+    padding-top: 100px;
 }
 
 input {
@@ -29,6 +30,7 @@ header {
     top: 0;
     color: #ffffff;
     display: flex;
+    z-index: 10000;
 }
 
 header .content {
@@ -101,4 +103,42 @@ header nav a {
 
 header nav a:hover {
     background: #1b018b;
+}
+
+article section {
+    position: relative;
+}
+
+article .about > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+article .about .photo {
+    margin-right: 5px;
+}
+
+article .about .photo img {
+    width: 300px;
+}
+
+article .about table {
+    font-size: 24px;
+}
+
+article .about table tr td:first-child {
+    font-weight: 800;
+}
+
+article .about p {
+    margin: 0;
+    width: 490px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+article .about iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
 }
