@@ -4,8 +4,27 @@ body {
     padding-top: 100px;
 }
 
-input {
+input, textarea {
     border-radius: 7px;
+    border: 2px #4e00ff solid;
+    height: 20px;
+    padding: 3px;
+}
+
+button {
+    border-radius: 7px;
+    background: #4e00ff;
+    border: 1px #ffffff solid;
+    height: 35px;
+    padding: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3d00ee;  
+    border: 1px #4e00ff solid;  
 }
 
 .content {
@@ -23,6 +42,22 @@ input {
 
 .sprite {
     background: url("../images/sprite.png") no-repeat;
+}
+
+.fieldset {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.fieldset label {
+    width: 30%;
+    display: inline-block;
+}
+
+.fieldset input {
+    width: 65%;
+    display: inline-block;
 }
 
 header {
@@ -211,4 +246,16 @@ article section.projects .project {
     height: 200px;
     display: inline-block;
     margin: 5px 17px;
+}
+
+article section.contact textarea {
+    height: 80px;
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+}
+
+article section.contact button {
+    display: block;
+    margin: 0 auto; 
 }
