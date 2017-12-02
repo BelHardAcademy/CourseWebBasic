@@ -21,6 +21,10 @@ input {
     float: right;
 }
 
+.sprite {
+    background: url("../images/sprite.png") no-repeat;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -182,4 +186,29 @@ article section.career table tbody tr:nth-child(even){
 
 article section.career table tbody ul {
     margin: 0;
+}
+
+article section.projects .arrow {
+    width: 45px;
+    height: 210px;
+    cursor: pointer;
+    background-position-y: center;
+}
+
+article section.projects .arrow.right {
+    background-position-x: -45px;
+}
+
+article section.projects .container {    
+    display: inline-block;
+    overflow: hidden;
+    height: 210px;
+    width: 710px;
+}
+
+article section.projects .project {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 5px 17px;
 }
