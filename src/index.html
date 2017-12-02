@@ -108,8 +108,8 @@
 
         <section id="projects" class="projects">
             <h1>Мои проекты</h1>
-            <div class="left sprite arrow"></div>
-            <div class="container">
+            <div id="leftArrow" class="left sprite arrow"></div>
+            <div id="projectContainer" class="container">
                 <div class="project">
                     <a href="https://www.belhard.com/ru/education/itacademy" target="_blank">
                         <span>Проект 1</span>
@@ -135,12 +135,12 @@
                     </a>
                 </div>
             </div>
-            <div class="right sprite arrow"></div>
+            <div id="rightArrow" class="right sprite arrow"></div>
         </section>
 
         <section id="contact" class="contact">
             <h1>Связаться со мной</h1>
-            <form>
+            <form id="contactForm">
                 <div class="fieldset">
                     <div>
                         <label for="name">Ваше имя:</label>
@@ -163,7 +163,7 @@
 
     <footer class="content">
         <hr/>
-        <p>© 2016-<span id="currentYear">2017</span> Петр Михайлович Иванов</p>
+        <p>© 2016-<span id="currentYear"></span> Петр Михайлович Иванов</p>
     </footer>
 
     <script type="text/javascript" src="js/app.js"></script>

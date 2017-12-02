@@ -230,6 +230,10 @@ article section.projects .arrow {
     background-position-y: center;
 }
 
+article section.projects .arrow:hover {
+    transform: scale(1.1);
+}
+
 article section.projects .arrow.right {
     background-position-x: -45px;
 }
