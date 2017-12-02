@@ -248,6 +248,24 @@ article section.projects .project {
     margin: 5px 17px;
 }
 
+article section.projects .project a {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+article section.projects .project a span {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    font-size: 20px;
+}
+
 article section.contact textarea {
     height: 80px;
     width: 70%;
