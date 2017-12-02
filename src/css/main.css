@@ -1,0 +1,287 @@
+body {
+    color: #4e00ff;
+    font-family: 'Roboto', 'FontAwesome';
+    padding-top: 100px;
+}
+
+input, textarea {
+    border-radius: 7px;
+    border: 2px #4e00ff solid;
+    height: 20px;
+    padding: 3px;
+}
+
+button {
+    border-radius: 7px;
+    background: #4e00ff;
+    border: 1px #ffffff solid;
+    height: 35px;
+    padding: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3d00ee;  
+    border: 1px #4e00ff solid;  
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.sprite {
+    background: url("../images/sprite.png") no-repeat;
+}
+
+.fieldset {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.fieldset label {
+    width: 30%;
+    display: inline-block;
+}
+
+.fieldset input {
+    width: 65%;
+    display: inline-block;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background: #4e00ff;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+    display: flex;
+    z-index: 10000;
+}
+
+header .content {
+    height: 100%;
+}
+
+header .logo {
+    float: left;
+    height: 100%;
+    width: 210px;
+}
+
+header .logo h1 {
+    margin: 3px 0 0 0;
+    text-shadow: 3px 4px black;
+}
+
+header h3 {
+    margin: -5px 0 0 0;
+    font-size: 16px;
+}
+
+header .info {
+    width: 590px;
+    float: right;
+}
+
+header .row {
+    height: 50px;
+    position: relative;
+}
+
+header .row:first-child > * {
+    top: 45%;
+    position: absolute;
+}
+
+header .row .search {
+    right: 0;
+}
+
+header .row .search #inputSearch {
+    padding-left: 25px;
+}
+
+header .row .search .fa-search {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    font-size: 15px;
+    color: #a5afb5;
+}
+
+header nav {
+    display: block;
+    height: 100%;
+    margin-left: -10px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 800;
+    padding-right:10px;
+    padding-left:10px;
+    height: 100%;
+}
+
+header nav a:hover {
+    background: #1b018b;
+}
+
+article section {
+    position: relative;
+}
+
+article section h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+article .about > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+article .about .photo {
+    margin-right: 5px;
+}
+
+article .about .photo img {
+    width: 300px;
+}
+
+article .about table {
+    font-size: 24px;
+}
+
+article .about table tr td:first-child {
+    font-weight: 800;
+}
+
+article .about p {
+    margin: 0;
+    width: 490px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+article .about iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+article section.career table, article section.career table td {
+    border: 4px solid #acacac;
+    border-collapse: collapse
+}
+
+article section.career table thead {
+    text-align: center;
+    background: #4e00ff;
+    color: #ffffff;
+}
+
+article section.career table thead tr {
+    height: 40px;
+}
+
+article section.career table tbody {
+    text-align: left;
+    vertical-align: top;
+    background: #ffffff;
+    color: #4e00ff;
+}
+
+article section.career table tbody tr {
+    height: auto;
+}
+
+article section.career table tbody tr:nth-child(even){
+    background: #ebebeb;
+}
+
+article section.career table tbody ul {
+    margin: 0;
+}
+
+article section.projects .arrow {
+    width: 45px;
+    height: 210px;
+    cursor: pointer;
+    background-position-y: center;
+}
+
+article section.projects .arrow.right {
+    background-position-x: -45px;
+}
+
+article section.projects .container {    
+    display: inline-block;
+    overflow: hidden;
+    height: 210px;
+    width: 710px;
+}
+
+article section.projects .project {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 5px 17px;
+}
+
+article section.projects .project a {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+article section.projects .project a span {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+article section.contact textarea {
+    height: 80px;
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+}
+
+article section.contact button {
+    display: block;
+    margin: 0 auto; 
+}
+
+footer.content {
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+}
