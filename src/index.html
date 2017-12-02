@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Портфолио | Петр Иванов</title>
+    <link rel="stylesheet" href="css/awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <div class="logo">
+                <h1>Петр Иванов</h1>
+                <h3>Портфолио</h4>
+            </div>
+            <div class="info">
+                <div class="row">
+                    <h3 class="left">Разработка индивидуальных проектов</h3>
+                    <div class="right search">
+                        <input id="inputSearch" type="text" placeholder="Поиск по сайту..." />
+                        <span class="fa fa-search"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <nav>
+                        <a href="index.html#about">Обо мне</a>
+                        <a href="index.html#career">Карьера</a>
+                        <a href="index.html#projects">Мои продукты</a>
+                        <a href="index.html#contact">Обратная связь</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <article class="content">
+        <section id="about" class="about">
+            <div class="photo">
+                <img src="images/Photo.png" alt="Фото" />
+            </div>
+            <div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>ФИО:</td>
+                            <td>Иванов Петр Михайлович</td>
+                        </tr>
+                        <tr>
+                            <td>Дата рождения:</td>
+                            <td>16.05.1983
+                                <span id="age"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Образование:</td>
+                            <td>Высшее (БГУ)</td>
+                        </tr>
+                        <tr>
+                            <td>Обо мне:</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+                    "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую
+                    коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только
+                    успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+            </div>
+            <iframe width="600" height="320" src="https://www.youtube.com/embed/UZLchMOf5ik"></iframe>
+        </section>
+        <section id="career" class="career">
+            <h1>Карьера</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Период</td>
+                        <td>Место работы</td>
+                        <td>Должность</td>
+                        <td>Описание</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>С октября 2015</td>
+                        <td>ООО "Моя лучшая работа"</td>
+                        <td>Руководитель</td>
+                        <td>
+                            <ul>
+                                <li>Управление персоналом</li>
+                                <li>Работа с заказчиками</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Май 2000 - сентябрь 2015</td>
+                        <td>УП "Моя предыдущая работа"</td>
+                        <td>Не руководитель</td>
+                        <td>
+                            <ul>
+                                <li>Выполнение поручений</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="projects" class="projects">
+            <h1>Мои проекты</h1>
+            <div id="leftArrow" class="left sprite arrow"></div>
+            <div id="projectContainer" class="container">
+                <div class="project">
+                    <a href="https://www.belhard.com/ru/education/itacademy" target="_blank">
+                        <span>Проект 1</span>
+                        <image src="http://placehold.it/200x200" alt="Проект 1" />
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://www.belhard.com/ru/education/itacademy" target="_blank">
+                        <span>Проект 2</span>
+                        <image src="http://placehold.it/200x200" alt="Проект 2" />
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://www.belhard.com/ru/education/itacademy" target="_blank">
+                        <span>Проект 3</span>
+                        <image src="http://placehold.it/200x200" alt="Проект 3" />
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://www.belhard.com/ru/education/itacademy" target="_blank">
+                        <span>Проект 4</span>
+                        <image src="http://placehold.it/200x200" alt="Проект 4" />
+                    </a>
+                </div>
+            </div>
+            <div id="rightArrow" class="right sprite arrow"></div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h1>Связаться со мной</h1>
+            <form id="contactForm">
+                <div class="fieldset">
+                    <div>
+                        <label for="name">Ваше имя:</label>
+                        <input id="name" type="text" placeholder="Введите имя" required />
+                    </div>
+                    <div>
+                        <label for="tel">Телефон:</label>
+                        <input id="tel" type="text" placeholder="Введите номер телефона" required />
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" placeholder="Введите Email-адрес" required />
+                    </div>
+                </div>
+                <textarea id="message" placeholder="Введите сообщение..." required></textarea>
+                <button>Отправить</button>
+            </form>
+        </section>
+    </article>
+
+    <footer class="content">
+        <hr/>
+        <p>© 2016-<span id="currentYear"></span> Петр Михайлович Иванов</p>
+    </footer>
+
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
